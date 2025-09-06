@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naistrings.Client", "Naistr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaistringsCore", "..\NaistringsCore\NaistringsCore.csproj", "{2A8A6696-FC2F-428B-812B-013E614522E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naistring.Backend", "..\Naistring.Backend\Naistring.Backend.csproj", "{1130CE09-02A9-4611-B507-E4DA1C804A0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2A8A6696-FC2F-428B-812B-013E614522E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A8A6696-FC2F-428B-812B-013E614522E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A8A6696-FC2F-428B-812B-013E614522E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1130CE09-02A9-4611-B507-E4DA1C804A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1130CE09-02A9-4611-B507-E4DA1C804A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1130CE09-02A9-4611-B507-E4DA1C804A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1130CE09-02A9-4611-B507-E4DA1C804A0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
