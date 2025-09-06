@@ -22,17 +22,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-switch (app.Environment.EnvironmentName)
-{
-    case "Development":
-        app.UseDeveloperExceptionPage();
-        break;
-    default:
-        app.UseExceptionHandler("/Error");
-        // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-        app.UseHsts();
-        break;
-}
+//switch (app.Environment.EnvironmentName)
+//{
+//    case "Development":
+//        app.UseDeveloperExceptionPage();
+//        break;
+//    default:
+//        app.UseExceptionHandler("/Error");
+//        // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+//        app.UseHsts();
+//        break;
+//}
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
